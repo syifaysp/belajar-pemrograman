@@ -1,0 +1,39 @@
+body{
+    background-color: pink;
+    color:white
+}
+nav{
+    background-color: cadetblue;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+aside{
+    width: 20%;
+    background-color: rgb(111, 160, 95);
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+main{
+    width: 80%;
+    background-color: rgb(160, 116, 95);
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: rgb(52, 50, 49);
+    color:white;
+    text-align:center;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    justify-content:center;
+    /* flex-direction:row-reverse; */
+    gap: 20px;
+}   
