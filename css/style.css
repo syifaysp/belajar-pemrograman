@@ -1,39 +1,88 @@
-body{
-    background-color: pink;
-    color:white
+body {
+  background-color: pink;
+  color: white;
 }
-nav{
-    background-color: cadetblue;
-    color:white;
+nav {
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+aside {
+  width: 20%;
+  background-color: rgb(111, 160, 95);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.section-aside:nth-child(1) {
+    background-color: rgb(160, 105, 95);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+.section-aside:nth-child(2) {
+    background-color: rgb(95, 100, 160);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+.section-aside:nth-child(3) {
+    background-color: rgb(160, 95, 124);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+main {
+  width: 80%;
+  background-color: rgb(160, 116, 95);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: rgb(52, 50, 49);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  /* flex-direction:row-reverse; */
+  gap: 10px;
+}
+.section-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.section-main:nth-child(1) {
+  background-color: rgb(111, 160, 95);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.section-main:nth-child(2){
+  background-color: rgb(95, 160, 139);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#content {
+    background-color: rgb(228, 210, 90);
+    color: white;
     text-align: center;
     padding: 10px;
     margin-bottom: 10px;
 }
-aside{
-    width: 20%;
-    background-color: rgb(111, 160, 95);
-    color:white;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-main{
-    width: 80%;
-    background-color: rgb(160, 116, 95);
-    color:white;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-footer{
-    background-color: rgb(52, 50, 49);
-    color:white;
-    text-align:center;
-    padding: 10px;
-}
-.content{
-    display: flex;
-    justify-content:center;
-    /* flex-direction:row-reverse; */
-    gap: 20px;
-}   

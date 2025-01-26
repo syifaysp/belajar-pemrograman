@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- navigasi start -->
     <nav>
-        <p>Navigasi</p>
+      <p>Navigasi</p>
     </nav>
     <!-- navigasi finish -->
-    
-    <!-- content start -->
-        <div class="content">
-            <!-- aside start -->
-            <aside>
-                <p>Aside</p>
-            </aside>
-            <!-- aside finish -->
 
-            <!-- main start -->
-            <main>
-                <p>Main</p>
-                <section>
-                    <p>Section</p>
-                </section>
-                <section>
-                    <p>Section</p>
-                </section>
-            </main>
-            <!-- main finish -->
+    <!-- content start -->
+    <div class="content">
+      <!-- aside start -->
+      <aside>
+        <p>Aside</p>
+        <div class="section-container">
+          <section class="section-aside">
+            <p>Section</p>
+          </section>
+          <section class="section-aside">
+            <p>Section</p>
+          </section>
+          <section class="section-aside">
+            <p>Section</p>
+          </section>
         </div>
+      </aside>
+      <!-- aside finish -->
+      <!-- main start -->
+      <main>
+        <p>Main</p>
+        <div class="section-container">
+          <section class="section-main">
+            <p>Section</p>
+          </section>
+          <section class="section-main">
+            <p>Section</p>
+          </section>
+        </div>
+      </main>
+      <!-- main finish -->
+    </div>
     <!-- content finish -->
+
+    <div id="content">
+        <section>
+            Content
+        </section>
+    </div>
 
     <!-- footer start -->
     <footer>
-        <p>Footer</p>
+      <p>Footer</p>
     </footer>
     <!-- footer finish -->
-</body>
+  </body>
 </html>
