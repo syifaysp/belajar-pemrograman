@@ -1,0 +1,54 @@
+.card-1 {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  background-color: rgb(233, 162, 178);
+  color: white;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.decoration {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+.card-2 {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  background-color: cadetblue;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.decoration {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+.card-3 {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  background-color: rgb(194, 139, 197);
+  color: white;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.decoration {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
