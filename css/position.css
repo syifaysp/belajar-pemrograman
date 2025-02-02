@@ -1,0 +1,33 @@
+.box-1{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.box-2{
+    background-color: rgb(119, 211, 82);
+    padding: 10px;
+    position: absolute;
+}
+
+.box-3{
+    background-color: rgb(255, 170, 0);
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    bottom: 5px;
+    left: 10px;
+    right: 50px;
+}
+
+.box-4{
+    background-color: rgb(128, 123, 98);
+    padding: 10px;
+    position: relative;
+    z-index: -1;
+    bottom: 20px;
+}
+
+.box-5{
+    background-color: rgb(43, 38, 32);
+    padding: 10px;
+}
